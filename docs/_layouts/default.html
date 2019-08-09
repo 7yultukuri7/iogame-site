@@ -1,0 +1,53 @@
+<!--
+                                 ■                                         ■    
+                                 ■                                         ■    
+              ■                  ■                                    ■    ■    
+ ■■■■■  ■■■  ■■■■  ■■■■  ■   ■■  ■   ■   ■■■■   ■■■■  ■■   ■   ■■    ■■■■  ■   ■
+    ■  ■   ■  ■    ■     ■   ■■  ■  ■   ■■  ■■  ■■  ■■  ■  ■   ■■     ■    ■  ■ 
+   ■       ■  ■    ■     ■   ■■  ■ ■    ■    ■  ■   ■   ■  ■   ■■     ■    ■ ■  
+  ■■   ■■■■■  ■     ■■   ■   ■■  ■■■    ■    ■  ■   ■   ■  ■   ■■     ■    ■■■  
+  ■    ■   ■  ■       ■  ■   ■■  ■  ■   ■    ■  ■   ■   ■  ■   ■■     ■    ■  ■ 
+ ■     ■  ■■  ■■   ■  ■  ■■  ■■  ■  ■■  ■■  ■■  ■   ■   ■  ■■  ■■     ■■   ■  ■■
+■■■■■■ ■■■■■   ■■  ■■■■   ■■■■■  ■   ■   ■■■■   ■   ■   ■   ■■■■■  ■   ■■  ■   ■
+-->
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ja" }}">
+  <head>
+{% include head.html %}
+</head>
+  <body class="discord dark white-text">
+{% include nav.html %}
+{% include noscript.html %}
+</noscript>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center blue-text">{{ page.title | default: site.title }}</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">{{ page.description | default: site.description }}</h5>
+      </div>
+      <div class="row center">
+        <a href="{{ site.discord_invite }}" id="discord-button" class="btn-large waves-effect discord blue">Discord</a>
+      </div>
+      <div class="row center">
+        
+         <div class="left">{{ page.date }}</div>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+      {{ content }}
+
+    </div>
+    <br><br>
+  </div>
+
+{% include footer.html %}
+{% include head2.html %}
+  </body>
+</html>
