@@ -1,11 +1,11 @@
 theme: jekyll-theme-cayman
-title: ".ioゲーム"
+title: "雑コム！"
 description: "Discord サーバー"
 timezone: Japan
 lang : ja
-url: "" # the base hostname & protocol for your site
-google_analytics: 
-discord_invite: "https://discord.gg/aCnNmED"
+url: "https://zatsukomu.tk" # the base hostname & protocol for your site
+google_analytics: UA-138579216-2
+discord_invite: "https://discord.gg/VWpRe9y"
 
 
 collections:
@@ -55,7 +55,7 @@ plugins:
   - jekyll-mentions
 
 jekyll-mentions:
-  base_url: https://.../user
+  base_url: https://zatsukomu.tk/user
 
 exclude:
 - Gemfile
@@ -63,6 +63,7 @@ exclude:
 - readme.md
 - README.md
 - /assets/img/README.md
+- /assets/img/Large-Triangles/README.md
 - /assets/css/README.md
 - /assets/favicons/README.md
 - /assets/js/README.md

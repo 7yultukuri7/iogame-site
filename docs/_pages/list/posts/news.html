@@ -1,0 +1,13 @@
+---
+layout: default
+title: "お知らせリスト"
+permalink: /post/news
+---
+  <ul>
+  {% for post in site.posts %}
+    {% if post.news %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%F" }}</li>
+
+  {% endif %}
+{% endfor %}
+  </ul>
