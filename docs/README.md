@@ -1,4 +1,4 @@
-GitHub Pagesサイト(zatsukomu.tk)は現在masterブランチの/docsフォルダから構築されています。
+GitHub Pagesサイト(iogames.tk)は現在masterブランチの/docsフォルダから構築されています。
 
 ## ファイル構造
 
